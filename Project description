@@ -1,0 +1,10 @@
+constraints:
+1. The destination row should be between 1/2 number of rows and the total number of rows.
+2. The destination column should be a value between 2/3 number of columns and the total number of columns. 
+
+
+RUNNING :
+The code takes user input to create a matrix with obstacles while making sure the vlues being input meet the constraints set by the admin.
+It will then ask to set the start point and the destination point. The matrix will show 0 in place of free cell and 1 in place of a blocked cell. 
+Recursive grassfire algorithm will then find the route and display the cell number the robot will follow and then display the matrix with the full path.
+
